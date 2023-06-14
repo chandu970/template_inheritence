@@ -1,0 +1,12 @@
+{% extends 'Parent.html' %}
+{% block title %}
+<title>child page</title>
+{% endblock %}
+<body>
+    <center>
+        {% block body_block%}
+
+        <h1 class="btn btn-success">This is child html page</h1>
+        {% endblock %}
+    </center>
+</body>
